@@ -1,0 +1,380 @@
+{
+  "variant": 1,
+  "image": "data/4.jpg",
+  "image_shape": [
+    447,
+    447
+  ],
+  "noise_summary": [
+    {
+      "noise_type": "gaussian",
+      "level": 5.0,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 33.80674972825066,
+      "psnr_std": 0.007151059243381561,
+      "ssim_mean": 0.9691771038698964,
+      "ssim_std": 7.745140627903682e-05
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 5.0,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 36.88091848866784,
+      "psnr_std": 0.015509271978143582,
+      "ssim_mean": 0.9688779057379103,
+      "ssim_std": 7.06173386587337e-05
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 10.0,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 33.1284392933917,
+      "psnr_std": 0.012895781455876618,
+      "ssim_mean": 0.9246362012832153,
+      "ssim_std": 0.00028854732347450266
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 10.0,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 35.168278088862394,
+      "psnr_std": 0.04297190967861966,
+      "ssim_mean": 0.9243889363098002,
+      "ssim_std": 0.0003667718241010495
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 15.0,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 32.1711359465874,
+      "psnr_std": 0.004302013455606552,
+      "ssim_mean": 0.8617381110153062,
+      "ssim_std": 0.0008303029941398591
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 15.0,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 33.36782661413059,
+      "psnr_std": 0.045889010724349526,
+      "ssim_mean": 0.8616825939602372,
+      "ssim_std": 0.000889776409049653
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 20.0,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 31.160760633766568,
+      "psnr_std": 0.03185879847192885,
+      "ssim_mean": 0.7958020341456358,
+      "ssim_std": 0.0011299391401057286
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 20.0,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 31.7877620902366,
+      "psnr_std": 0.0470711723418735,
+      "ssim_mean": 0.7922260940938527,
+      "ssim_std": 0.001235153177936448
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 30.0,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 29.14921904923328,
+      "psnr_std": 0.024318477523648664,
+      "ssim_mean": 0.6684871607913246,
+      "ssim_std": 0.0017966912652692935
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 30.0,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 29.179608106599275,
+      "psnr_std": 0.025337791828315224,
+      "ssim_mean": 0.6521887338328826,
+      "ssim_std": 0.0011519147686414246
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 40.0,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 27.27744895654318,
+      "psnr_std": 0.005878467848465271,
+      "ssim_mean": 0.5664321461696712,
+      "ssim_std": 0.001012902743167457
+    },
+    {
+      "noise_type": "gaussian",
+      "level": 40.0,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 27.148970392284223,
+      "psnr_std": 0.01424459706884268,
+      "ssim_mean": 0.5340153174512697,
+      "ssim_std": 0.0013017359185106643
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.01,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 32.10915229257849,
+      "psnr_std": 0.024261469441339015,
+      "ssim_mean": 0.8915062823826586,
+      "ssim_std": 0.0011046622056402188
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.01,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 37.73716018696277,
+      "psnr_std": 0.07654197871729898,
+      "ssim_mean": 0.988031066083939,
+      "ssim_std": 1.984568770578908e-06
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.02,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 30.599146321348268,
+      "psnr_std": 0.029804712164768297,
+      "ssim_mean": 0.8098390790024291,
+      "ssim_std": 0.0011435827802003075
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.02,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 37.53435625711435,
+      "psnr_std": 0.10505992404282884,
+      "ssim_mean": 0.9879107872006018,
+      "ssim_std": 5.629020306723066e-05
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.05,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 27.647251345719567,
+      "psnr_std": 0.04786116060566096,
+      "ssim_mean": 0.6384199378764829,
+      "ssim_std": 0.004272882622121306
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.05,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 36.961645267039806,
+      "psnr_std": 0.1707242385031891,
+      "ssim_mean": 0.987403310025344,
+      "ssim_std": 0.00012924107789139255
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.08,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 25.646131751872876,
+      "psnr_std": 0.01548885343905721,
+      "ssim_mean": 0.5267884212170191,
+      "ssim_std": 0.0003837433975157902
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.08,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 36.58093449636069,
+      "psnr_std": 0.0967419526353783,
+      "ssim_mean": 0.9867377020650402,
+      "ssim_std": 8.625832932885606e-05
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.12,
+      "method": "gaussian",
+      "trials": 3,
+      "psnr_mean": 23.713827294694763,
+      "psnr_std": 0.06826412729019501,
+      "ssim_mean": 0.43167060277163904,
+      "ssim_std": 0.0013139882844313922
+    },
+    {
+      "noise_type": "impulse",
+      "level": 0.12,
+      "method": "median",
+      "trials": 3,
+      "psnr_mean": 35.609447644402564,
+      "psnr_std": 0.1702514298184682,
+      "ssim_mean": 0.9852529588926507,
+      "ssim_std": 0.00020339565616390691
+    }
+  ],
+  "parameter_sweep": [
+    {
+      "filter": "gaussian",
+      "parameter": "sigma",
+      "value": 0.8,
+      "trials": 2,
+      "psnr_mean": 28.898001967657745,
+      "psnr_std": 0.013270227841552185,
+      "ssim_mean": 0.5679283957417061,
+      "ssim_std": 1.5509953611991811e-06
+    },
+    {
+      "filter": "gaussian",
+      "parameter": "sigma",
+      "value": 1.2,
+      "trials": 2,
+      "psnr_mean": 30.124330160532274,
+      "psnr_std": 0.01776812014000484,
+      "ssim_mean": 0.7285169525235828,
+      "ssim_std": 0.00033070318784583774
+    },
+    {
+      "filter": "gaussian",
+      "parameter": "sigma",
+      "value": 1.4,
+      "trials": 2,
+      "psnr_mean": 30.07549163116464,
+      "psnr_std": 0.021324027256573785,
+      "ssim_mean": 0.761526612805826,
+      "ssim_std": 0.00025237483882134537
+    },
+    {
+      "filter": "gaussian",
+      "parameter": "sigma",
+      "value": 1.6,
+      "trials": 2,
+      "psnr_mean": 29.938398451116672,
+      "psnr_std": 0.022198771283864716,
+      "ssim_mean": 0.780267832375626,
+      "ssim_std": 0.0001995025529457073
+    },
+    {
+      "filter": "gaussian",
+      "parameter": "sigma",
+      "value": 2.0,
+      "trials": 2,
+      "psnr_mean": 29.665853954434922,
+      "psnr_std": 0.024595368345151414,
+      "ssim_mean": 0.795493878924179,
+      "ssim_std": 3.551074864910353e-05
+    },
+    {
+      "filter": "gaussian",
+      "parameter": "sigma",
+      "value": 2.5,
+      "trials": 2,
+      "psnr_mean": 29.45565247019831,
+      "psnr_std": 0.026113029857713244,
+      "ssim_mean": 0.8006770676361851,
+      "ssim_std": 0.00011314740144097168
+    },
+    {
+      "filter": "median",
+      "parameter": "kernel",
+      "value": 3,
+      "trials": 2,
+      "psnr_mean": 27.63453748892791,
+      "psnr_std": 0.03192043672102862,
+      "ssim_mean": 0.48816373847812133,
+      "ssim_std": 0.000571613090753903
+    },
+    {
+      "filter": "median",
+      "parameter": "kernel",
+      "value": 5,
+      "trials": 2,
+      "psnr_mean": 30.380030902665567,
+      "psnr_std": 0.06633139814322142,
+      "ssim_mean": 0.7197035308617525,
+      "ssim_std": 0.0018972731926750752
+    },
+    {
+      "filter": "median",
+      "parameter": "kernel",
+      "value": 7,
+      "trials": 2,
+      "psnr_mean": 30.099825487089774,
+      "psnr_std": 0.05000862034781939,
+      "ssim_mean": 0.8267975674902771,
+      "ssim_std": 0.0022579247686794757
+    },
+    {
+      "filter": "median",
+      "parameter": "kernel",
+      "value": 9,
+      "trials": 2,
+      "psnr_mean": 28.651978872865335,
+      "psnr_std": 0.013783464787939792,
+      "ssim_mean": 0.8631877550174166,
+      "ssim_std": 0.0016594494141543015
+    }
+  ],
+  "contrast": [
+    {
+      "method": "none",
+      "psnr_vs_original": null,
+      "ssim_vs_original": 1.0,
+      "mean": 57.927455720212805,
+      "std_contrast": 32.758367603135895,
+      "entropy": 5.748622256118862
+    },
+    {
+      "method": "hist_eq",
+      "psnr_vs_original": 9.111619116278476,
+      "ssim_vs_original": 0.5687327739821361,
+      "mean": 134.4740577251275,
+      "std_contrast": 70.79277182516135,
+      "entropy": 5.559919311974988
+    },
+    {
+      "method": "clahe",
+      "psnr_vs_original": 23.868622448068276,
+      "ssim_vs_original": 0.9316341406723186,
+      "mean": 69.4563007672327,
+      "std_contrast": 37.68920439798553,
+      "entropy": 6.676236760510156
+    }
+  ],
+  "pipeline": [
+    {
+      "stage": "noisy",
+      "psnr_vs_original": 20.562068488214468,
+      "ssim_vs_original": 0.18524486261881812
+    },
+    {
+      "stage": "gaussian_filter",
+      "psnr_vs_original": 30.137156615508154,
+      "ssim_vs_original": 0.731085356245749
+    },
+    {
+      "stage": "gaussian_filter_clahe",
+      "psnr_vs_original": 19.116289174289328,
+      "ssim_vs_original": 0.3565457996163961
+    }
+  ],
+  "best_filter_for_example": "gaussian",
+  "example": {
+    "type": "gaussian",
+    "level": 25.0
+  }
+}
